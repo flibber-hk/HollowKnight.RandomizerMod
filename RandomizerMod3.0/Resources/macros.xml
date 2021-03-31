@@ -1,4 +1,4 @@
-﻿<randomizer>
+<randomizer>
   <!--Macros used in all modes-->
 
   <!--LEFT_CLAW_SET and RIGHT_CLAW_SET are the names of the additive sets for left and right claw. For logic, LEFTCLAW and RIGHTCLAW are what we actually care about 
@@ -12,9 +12,30 @@
   <macro name="RIGHTSLASH">NONRANDOMNAIL | Rightslash</macro>
   <macro name="SIDESLASH">LEFTSLASH | RIGHTSLASH</macro>
   <macro name="UPSLASH">NONRANDOMNAIL | Upslash</macro>
-
+  <macro name="DOWNSLASH">NONRANDOMPOGO | Downslash</macro>
+  
   <macro name="FOCUS">NONRANDOMFOCUS | Focus</macro>
-    
+
+  <!--Pogo Macros (SnowyRNG)-->
+  <macro name="ANYSLASH">LEFTSLASH | RIGHTSLASH | UPSLASH | DOWNSLASH</macro>
+  <macro name="NAIL_ART">Great_Slash | (Dash_Slash + DASH) | Cyclone_Slash</macro>
+  <macro name="CAN_CAST">Dream_Nail | ANYSLASH | NAIL_ART</macro>
+  <macro name="SPELL">(FIREBALL | QUAKE | SCREAM) + CAN_CAST</macro>
+  
+  <macro name="INTERACT">ANYSLASH | NAIL_ART</macro>
+  <macro name="ROPE_BREAK">SIDESLASH | NAIL_ART</macro>
+  <macro name="WALL_BREAK">ANYSLASH | NAIL_ART | SPELL</macro>
+  <macro name="BELL_RING">ANYSLASH | NAIL_ART | SPELL | (Mothwing_Cloak + Shade_Cloak + Sharp_Shadow)</macro>
+  <macro name="BELL_RING_LEFT">BELL_RING | (SUPERDASH + LEFTCLAW)</macro>
+  <macro name="BELL_RING_RIGHT">BELL_RING | (SUPERDASH + RIGHTCLAW)</macro>
+  <macro name="BELL_RING_BOTH">BELL_RING_LEFT | BELL_RING_RIGHT</macro>
+  <macro name="PLANK_BREAK">ANYSLASH | NAIL_ART | SPELL | (Mothwing_Cloak + Shade_Cloak + Sharp_Shadow) | SUPERDASH</macro>
+  
+  <macro name="REGULAR_DAMAGE">ANYSLASH | NAIL_ART | Weaversong | Grimmchild</macro>
+  <macro name="CURSED_DAMAGE">ANYSLASH | NAIL_ART | (Dream_Nail + SPELL) | Weaversong | Grimmchild | (Mothwing_Cloak + Shade_Cloak + Sharp_Shadow) | (Dream_Nail + (Glowing_Womb | (Spore_Shroom + FOCUS) | (SUPERDASH + FOCUS)))</macro>
+  <macro name="DAMAGE">REGULAR_DAMAGE | (CURSED_DAMAGE + SPICYSKIPS)</macro>
+  <!---->
+
   <macro name="SHADOWDASH">Mothwing_Cloak + Shade_Cloak</macro>
   <macro name="CREST">City_Crest</macro>
   <macro name="SIMPLE1">Simple_Key-Sly | Simple_Key-City | Simple_Key-Basin | Simple_Key-Lurker</macro>
@@ -28,20 +49,20 @@
   <macro name="BRAND">King's_Brand</macro>
   <macro name="KINGSOUL">(Queen_Fragment + King_Fragment) | (Queen_Fragment + Void_Heart) | (King_Fragment + Void_Heart)</macro>
   <macro name="VOIDHEART">Queen_Fragment + King_Fragment + Void_Heart</macro>
-  <macro name="LEFTBALDURS">FIREBALL | QUAKE | (Grubberfly's_Elegy + LEFTSLASH) | Glowing_Womb | (DASH + Dash_Slash) | (MILDSKIPS + (Weaversong | (Spore_Shroom + FOCUS))) | (((Mark_of_Pride + LEFTSLASH) | Cyclone_Slash | (DASH + LEFTSLASH)) + SPICYSKIPS)</macro>
-  <macro name="RIGHTBALDURS">FIREBALL | QUAKE | (Grubberfly's_Elegy + RIGHTSLASH) | Glowing_Womb | (DASH + Dash_Slash) | (MILDSKIPS + (Weaversong | (Spore_Shroom + FOCUS))) | (((Mark_of_Pride + RIGHTSLASH) | Cyclone_Slash | (DASH + RIGHTSLASH)) + SPICYSKIPS)</macro>
+  <macro name="LEFTBALDURS">((FIREBALL | QUAKE) + CAN_CAST) | (Grubberfly's_Elegy + LEFTSLASH) | (Glowing_Womb + CAN_CAST) | (DASH + Dash_Slash) | (MILDSKIPS + (Weaversong | (Spore_Shroom + FOCUS + CAN_CAST))) | (((Mark_of_Pride + LEFTSLASH) | Cyclone_Slash | (DASH + LEFTSLASH)) + SPICYSKIPS)</macro>
+  <macro name="RIGHTBALDURS">((FIREBALL | QUAKE) + CAN_CAST) | (Grubberfly's_Elegy + RIGHTSLASH) | (Glowing_Womb + CAN_CAST) | (DASH + Dash_Slash) | (MILDSKIPS + (Weaversong | (Spore_Shroom + FOCUS + CAN_CAST))) | (((Mark_of_Pride + RIGHTSLASH) | Cyclone_Slash | (DASH + RIGHTSLASH)) + SPICYSKIPS)</macro>
   <macro name="BALDURS">LEFTBALDURS + RIGHTBALDURS</macro>
   <macro name="SHARPSHADOW">Sharp_Shadow + SHADOWDASH</macro>
   <macro name="DASHMASTER">Dashmaster + DASH</macro>
   <macro name="INFECTED">(Lurien | Monomon | Herrah | Dreamer) + SPICYSKIPS</macro>
   <macro name="DREAMER3">(Lurien + Monomon + Herrah) | (Dreamer + Monomon + Herrah) | (Lurien + Dreamer + Herrah) | (Lurien + Monomon + Dreamer)</macro>
   <macro name="AWOKEN">Dream_Nail + Dream_Gate + Awoken_Dream_Nail</macro>
-  <macro name="AIRSTALL">FIREBALLSKIPS + (FIREBALL | SCREAM)</macro>
-  <macro name="TUNNEL">SPIKETUNNELS + DASH + (Dashmaster | AIRSTALL)</macro>
+  <macro name="AIRSTALL">FIREBALLSKIPS + (FIREBALL | SCREAM) + CAN_CAST</macro>
+  <macro name="TUNNEL">SPIKETUNNELS + DOWNSLASH + DASH + (Dashmaster | AIRSTALL)</macro>
   <macro name="SKIPACID">FULLCLAW + DASH + SUPERDASH + ACIDSKIPS</macro>
-  <macro name="MINIBOSS">FIREBALL | SCREAM | QUAKE | SPICYSKIPS</macro>
-  <macro name="AERIALMINIBOSS">((FIREBALL | SCREAM) + ((DASH + (SIDESLASH | UPSLASH)) | MILDSKIPS)) | SPICYSKIPS</macro>
-  <macro name="BOSS">((Vengeful_Spirit + Shade_Soul) | (Desolate_Dive + Descending_Dark) | (Howling_Wraiths + Abyss_Shriek) | (FIREBALL + QUAKE) | (SCREAM + QUAKE) | (FIREBALL + SCREAM)) + (DASH | MILDSKIPS) + (SIDESLASH | UPSLASH | MILDSKIPS)</macro>
+  <macro name="MINIBOSS">(REGULAR_DAMAGE + (FIREBALL | SCREAM | QUAKE) + CAN_CAST) | (CURSED_DAMAGE + SPICYSKIPS)</macro>
+  <macro name="AERIALMINIBOSS">REGULAR_DAMAGE + (((FIREBALL | SCREAM) + CAN_CAST + ((DASH + (SIDESLASH | UPSLASH)) | (MILDSKIPS))) | SPICYSKIPS)</macro>
+  <macro name="BOSS">REGULAR_DAMAGE + ((Vengeful_Spirit + Shade_Soul) | (Desolate_Dive + Descending_Dark) | (Howling_Wraiths + Abyss_Shriek) | (FIREBALL + QUAKE) | (SCREAM + QUAKE) | (FIREBALL + SCREAM)) + CAN_CAST + (DASH | MILDSKIPS) + (SIDESLASH | UPSLASH | MILDSKIPS)</macro>
   <macro name="ALLSTAGS">Crossroads_Stag + Greenpath_Stag + Queen's_Station_Stag + Queen's_Gardens_Stag + City_Storerooms_Stag + King's_Station_Stag + Resting_Grounds_Stag + Distant_Village_Stag + Hidden_Station_Stag</macro>
   <macro name="LIFEBLOOD">Lifeblood_Heart | Lifeblood_Core | Joni's_Blessing</macro>
   <macro name="UPWALLBREAK">SIDESLASH | UPSLASH | FIREBALL | SCREAM | Cyclone_Slash | Great_Slash | (Dash_Slash + DASH)</macro>

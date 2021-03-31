@@ -667,8 +667,8 @@
     <objectName>Geo Rock 2</objectName>
     <replace>true</replace>
     <elevation>1</elevation>
-    <itemLogic>Left_Elevator</itemLogic>
-    <areaLogic>Left_Elevator</areaLogic>
+    <itemLogic>Upper_Storerooms</itemLogic>
+    <areaLogic>Upper_Storerooms</areaLogic>
     <roomLogic>Crossroads_37[right1]</roomLogic>
     <type>Geo</type>
     <action>SpawnGeo</action>

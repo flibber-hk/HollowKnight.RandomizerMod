@@ -297,6 +297,11 @@ namespace RandomizerMod
             get => GetBool(false);
             set => SetBool(value);
         }
+        public bool CursedPogo
+        {
+            get => GetBool(false);
+            set => SetBool(value);
+        }
 
 
         internal bool GetRandomizeByPool(string pool)
@@ -353,6 +358,8 @@ namespace RandomizerMod
                     return RandomizeBossGeo;
                 case "CursedNail":
                     return CursedNail;
+                case "CursedPogo":
+                    return CursedPogo;
                 default:
                     return false;
             }

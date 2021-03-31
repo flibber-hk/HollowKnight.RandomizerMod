@@ -198,7 +198,7 @@ namespace RandomizerMod
 
         public override string GetVersion()
         {
-            string ver = "3.10BCN";
+            string ver = "3.11CURSEDPOGO";
 
             ver += $"({Math.Abs(MakeAssemblyHash() % 997)})";
 
@@ -624,7 +624,7 @@ namespace RandomizerMod
                 case NailDirection.rightward:
                     return orig(self) && (Instance.Settings.GetBool(name: "canSideslashRight") || !Instance.Settings.CursedNail);
                 case NailDirection.downward:
-                    return orig(self);
+                    return orig(self) && (Instance.Settings.GetBool(name: "canDownslash") || !Instance.Settings.CursedPogo);
             }
         }
 

@@ -719,7 +719,7 @@
     <sceneName>Ruins1_01</sceneName>
     <doorName>left1</doorName>
     <areaName>City_of_Tears</areaName>
-    <logic>(Left_City + (ANYCLAW | WINGS)) | Left_Elevator</logic>
+    <logic>(Left_City + (ANYCLAW | WINGS)) | Upper_Storerooms</logic>
   </transition>
   <transition name="Ruins1_05b[bot1]">
     <sceneName>Ruins1_05b</sceneName>
@@ -743,7 +743,7 @@
     <sceneName>Ruins1_05</sceneName>
     <doorName>right1</doorName>
     <areaName>City_of_Tears</areaName>
-    <logic>(Left_City + ((FULLCLAW + (DASH | SUPERDASH | WINGS | MILDSKIPS)) | (WINGS + (ANYCLAW | MILDSKIPS)))) | Left_Elevator | (Watcher's_Spire + (LEFTCLAW | WINGS))</logic>
+    <logic>(Left_City + ((FULLCLAW + (DASH | SUPERDASH | WINGS | MILDSKIPS)) | (WINGS + (ANYCLAW | MILDSKIPS)))) | Upper_Storerooms | (Watcher's_Spire + (LEFTCLAW | WINGS))</logic>
   </transition>
   <transition name="Ruins1_31[right1]">
     <sceneName>Ruins1_31</sceneName>

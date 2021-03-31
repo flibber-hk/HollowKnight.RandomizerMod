@@ -1,4 +1,4 @@
-﻿<randomizer>
+<randomizer>
   <start name="King's Pass">
     <sceneName>Tutorial_01</sceneName>
     <x>35.5</x>
@@ -28,7 +28,7 @@
     <x>40.2</x>
     <y>22</y>
     <zone>CROSSROADS</zone>
-    <waypoint>Crossroads</waypoint>
+    <waypoint>Left_Crossroads</waypoint>
     <areaTransition>Crossroads_01[top1]</areaTransition>
     <roomTransition>Crossroads_36[right1]</roomTransition>
     <itemSafe>true</itemSafe>
@@ -40,7 +40,7 @@
     <x>14</x>
     <y>68</y>
     <zone>CROSSROADS</zone>
-    <waypoint>Crossroads</waypoint>
+    <waypoint>Left_Crossroads</waypoint>
     <areaTransition>Crossroads_01[top1]</areaTransition>
     <roomTransition>Crossroads_03[top1]</roomTransition>
     <itemSafe>true</itemSafe>
