@@ -1881,7 +1881,7 @@
     <sceneName>Crossroads_09</sceneName>
     <objectName>Heart Piece</objectName>
     <replace>true</replace>
-    <itemLogic>Left_Crossroads + MINIBOSS + REGULAR_DAMAGE</itemLogic>
+    <itemLogic>Left_Crossroads + MINIBOSS + REGULAR_DAMAGE + (WINGS | LEFTCLAW | DOWNSLASH)</itemLogic>
     <areaLogic>Left_Crossroads + MINIBOSS</areaLogic>
     <roomLogic>(Crossroads_09[left1] | Crossroads_09[right1]) + MINIBOSS</roomLogic>
     <type>Trinket</type>

@@ -1,17 +1,17 @@
-﻿<randomizer>
+<randomizer>
   <shop name="Sly">
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
-    <itemLogic>Crossroads + Dirtmouth</itemLogic>
-    <areaLogic>Crossroads + Dirtmouth</areaLogic>
+    <itemLogic>Right_Crossroads + Dirtmouth</itemLogic>
+    <areaLogic>Right_Crossroads + Dirtmouth</areaLogic>
     <roomLogic>Room_ruinhouse[left1] + Room_shop[left1]</roomLogic>
     <requiredPlayerDataBool></requiredPlayerDataBool>
   </shop>
   <shop name="Sly_(Key)">
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
-    <itemLogic>SHOPKEY + Crossroads + Dirtmouth</itemLogic>
-    <areaLogic>SHOPKEY + Crossroads + Dirtmouth</areaLogic>
+    <itemLogic>SHOPKEY + Right_Crossroads + Dirtmouth</itemLogic>
+    <areaLogic>SHOPKEY + Right_Crossroads + Dirtmouth</areaLogic>
     <roomLogic>Room_ruinhouse[left1] + Room_shop[left1] + SHOPKEY</roomLogic>
     <requiredPlayerDataBool>gaveSlykey</requiredPlayerDataBool>
   </shop>
@@ -26,15 +26,15 @@
   <shop name="Salubra">
     <sceneName>Room_Charm_Shop</sceneName>
     <objectName>Shop Menu</objectName>
-    <itemLogic>(Crossroads + (RIGHTCLAW | DASH | WINGS | SUPERDASH | INFECTED | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | SHADESKIPS)) | Blue_Lake</itemLogic>
-    <areaLogic>(Crossroads + (RIGHTCLAW | DASH | WINGS | SUPERDASH | INFECTED | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | SHADESKIPS)) | Crossroads_04[right1]</areaLogic>
+    <itemLogic>(Right_Crossroads + (RIGHTCLAW | DASH | WINGS | SUPERDASH | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | DOWNSLASH + (SHADESKIPS | INFECTED))) | Blue_Lake</itemLogic>
+    <areaLogic>(Right_Crossroads + (RIGHTCLAW | DASH | WINGS | SUPERDASH | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | DOWNSLASH + (SHADESKIPS | INFECTED))) | Crossroads_04[right1]</areaLogic>
     <roomLogic>Room_Charm_Shop[left1]</roomLogic>
     <requiredPlayerDataBool></requiredPlayerDataBool>
   </shop>
   <shop name="Leg_Eater">
     <sceneName>Fungus2_26</sceneName>
     <objectName>Shop Menu</objectName>
-    <itemLogic>(Fungal_Wastes + (DASH | WINGS | ACID | AIRSTALL | RIGHTCLAW | SUPERDASH)) | (Crossroads + (INFECTED | DASH | WINGS | (LEFTCLAW + AIRSTALL)))</itemLogic>
+    <itemLogic>(Fungal_Wastes + (DASH | WINGS | ACID | AIRSTALL | RIGHTCLAW | SUPERDASH)) | (Crossroads + ((INFECTED + DOWNSLASH) | DASH | WINGS | (LEFTCLAW + AIRSTALL)))</itemLogic>
     <areaLogic>Fungal_Wastes + (DASH | WINGS | ACID | AIRSTALL | RIGHTCLAW | SUPERDASH | Fungus2_06[top1])</areaLogic>
     <roomLogic>Fungus2_26[left1]</roomLogic>
     <requiredPlayerDataBool></requiredPlayerDataBool>

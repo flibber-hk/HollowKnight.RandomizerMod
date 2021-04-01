@@ -132,7 +132,7 @@
     <objectName>Soul Totem 4</objectName>
     <replace>true</replace>
     <elevation>1.3</elevation>
-    <itemLogic>Left_Crossroads</itemLogic>
+    <itemLogic>Left_Crossroads + (WINGS | LEFTCLAW | DOWNSLASH)</itemLogic>
     <areaLogic>Left_Crossroads</areaLogic>
     <roomLogic>Crossroads_36[right1] | Crossroads_36[right2]</roomLogic>
     <type>Soul</type>
