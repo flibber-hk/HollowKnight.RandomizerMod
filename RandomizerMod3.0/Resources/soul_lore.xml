@@ -68,7 +68,7 @@
     <objectName>Soul Totem mini_horned</objectName>
     <replace>true</replace>
     <elevation>0.001</elevation>
-    <itemLogic>(Left_Crossroads | Right_Crossroads) + DAMAGE + WALL_BREAK + (DASH | WINGS | (LEFTCLAW + (AIRSTALL | (INFECTED + DOWNSLASH) | Fungal_Wastes)))</itemLogic>
+    <itemLogic>(Left_Crossroads | Right_Crossroads) + DAMAGE + WALLBREAK + (DASH | WINGS | (LEFTCLAW + (AIRSTALL | (INFECTED + DOWNSLASH) | Fungal_Wastes)))</itemLogic>
     <areaLogic>Crossroads + (DASH | WINGS | (LEFTCLAW + (AIRSTALL | INFECTED | Crossroads_18[bot1])))</areaLogic>
     <roomLogic>(Crossroads_18[right1] + (DASH | WINGS | (LEFTCLAW + (AIRSTALL | INFECTED)))) | ((Crossroads_18[bot1] | Crossroads_18[right2]) + (DASH | WINGS | LEFTCLAW))</roomLogic>
     <type>Soul</type>
@@ -164,9 +164,9 @@
     <objectName>Soul Totem 2</objectName>
     <replace>true</replace>
     <elevation>0.8</elevation>
-    <itemLogic>Ancestral_Mound + UPWALLBREAK</itemLogic>
-    <areaLogic>Ancestral_Mound + UPWALLBREAK</areaLogic>
-    <roomLogic>Crossroads_ShamanTemple[left1] + UPWALLBREAK</roomLogic>
+    <itemLogic>Ancestral_Mound + WALLBREAKUP</itemLogic>
+    <areaLogic>Ancestral_Mound + WALLBREAKUP</areaLogic>
+    <roomLogic>Crossroads_ShamanTemple[left1] + WALLBREAKUP</roomLogic>
     <type>Soul</type>
     <action>AddSoul</action>
     <pool>Soul</pool>
@@ -212,7 +212,7 @@
     <objectName>Soul Totem mini_two_horned</objectName>
     <replace>true</replace>
     <elevation>0.1</elevation>
-    <itemLogic>Dark_Deepnest + (FULLCLAW | (WINGS + (ANYCLAW | (MILDSKIPS + DOWNSLASH))) | (Bottom_Left_Queen's_Gardens + PLANK_BREAK + (ANYCLAW | WINGS)))</itemLogic>
+    <itemLogic>Dark_Deepnest + (FULLCLAW | (WINGS + (ANYCLAW | (MILDSKIPS + DOWNSLASH))) | (Bottom_Left_Queen's_Gardens + PLANKBREAK + (ANYCLAW | WINGS)))</itemLogic>
     <areaLogic>Dark_Deepnest + (FULLCLAW | (WINGS + (ANYCLAW | MILDSKIPS)) | Deepnest_42[top1])</areaLogic>
     <roomLogic>(LANTERN | DARKROOMS) + (Deepnest_42[left1] | Deepnest_42[bot1] | Deepnest_42[top1])</roomLogic>
     <type>Soul</type>
@@ -292,7 +292,7 @@
     <objectName>Soul Totem mini_horned</objectName>
     <replace>true</replace>
     <elevation>0.001</elevation>
-    <itemLogic>Oro_Bench + QUAKE + CAN_CAST + (RIGHTCLAW | WINGS)</itemLogic>
+    <itemLogic>Oro_Bench + QUAKE + CANCAST + (RIGHTCLAW | WINGS)</itemLogic>
     <areaLogic>Oro_Bench + QUAKE + (RIGHTCLAW | WINGS)</areaLogic>
     <roomLogic>Deepnest_East_14[top2] + QUAKE + (RIGHTCLAW | WINGS)</roomLogic>
     <type>Soul</type>
@@ -308,7 +308,7 @@
     <objectName>Soul Totem mini_two_horned</objectName>
     <replace>true</replace>
     <elevation>0.001</elevation>
-    <itemLogic>Oro_Bench + QUAKE + CAN_CAST</itemLogic>
+    <itemLogic>Oro_Bench + QUAKE + CANCAST</itemLogic>
     <areaLogic>Oro_Bench + QUAKE</areaLogic>
     <roomLogic>Deepnest_East_14[top2]</roomLogic>
     <type>Soul</type>
@@ -340,7 +340,7 @@
     <objectName>Soul Totem mini_two_horned</objectName>
     <replace>true</replace>
     <elevation>0.2</elevation>
-    <itemLogic>Oro_Bench + QUAKE + CAN_CAST + (RIGHTCLAW | WINGS) + ((SPIKETUNNELS + DOWNSLASH) | DASH)</itemLogic>
+    <itemLogic>Oro_Bench + QUAKE + CANCAST + (RIGHTCLAW | WINGS) + ((SPIKETUNNELS + DOWNSLASH) | DASH)</itemLogic>
     <areaLogic>Oro_Bench + QUAKE + (RIGHTCLAW | WINGS) + (SPIKETUNNELS | DASH)</areaLogic>
     <roomLogic>Deepnest_East_17[left1] + QUAKE</roomLogic>
     <type>Soul</type>
@@ -436,7 +436,7 @@
     <objectName>Soul Totem 5</objectName>
     <replace>true</replace>
     <elevation>0.8</elevation>
-    <itemLogic>(Fungal_Wastes + (WINGS | LEFTCLAW | (RIGHTCLAW + SUPERDASH) | DOWNSLASH) + (RIGHTCLAW | (LEFTCLAW + WINGS)) + (DASH | SUPERDASH | ACID)) | (Left_City + ((FULLCLAW + (DASH | SUPERDASH)) | (ANYCLAW + WINGS)) + QUAKE + CAN_CAST)</itemLogic>
+    <itemLogic>(Fungal_Wastes + (WINGS | LEFTCLAW | (RIGHTCLAW + SUPERDASH) | DOWNSLASH) + (RIGHTCLAW | (LEFTCLAW + WINGS)) + (DASH | SUPERDASH | ACID)) | (Left_City + ((FULLCLAW + (DASH | SUPERDASH)) | (ANYCLAW + WINGS)) + QUAKE + CANCAST)</itemLogic>
     <areaLogic>(Fungal_Wastes + (RIGHTCLAW | (LEFTCLAW + WINGS)) + (DASH | SUPERDASH | ACID)) | (Fungus2_21[right1] + ((FULLCLAW + (DASH | SUPERDASH)) | (ANYCLAW + WINGS)) + QUAKE)</areaLogic>
     <roomLogic>(Fungus2_21[left1] + (RIGHTCLAW | (LEFTCLAW + WINGS)) + (DASH | SUPERDASH | ACID)) | (Fungus2_21[right1] + ((FULLCLAW + (DASH | SUPERDASH)) | (ANYCLAW + WINGS)) + QUAKE)</roomLogic>
     <type>Soul</type>
@@ -516,7 +516,7 @@
     <objectName>Soul Totem mini_two_horned</objectName>
     <replace>true</replace>
     <elevation>0.3</elevation>
-    <itemLogic>Upper_Crystal_Peak + (FULLCLAW | (WINGS + ANYCLAW)) + (DASH | WINGS | SUPERDASH) + QUAKE + CAN_CAST</itemLogic>
+    <itemLogic>Upper_Crystal_Peak + (FULLCLAW | (WINGS + ANYCLAW)) + (DASH | WINGS | SUPERDASH) + QUAKE + CANCAST</itemLogic>
     <areaLogic>((Mines_25[left1] + (FULLCLAW | (WINGS + ANYCLAW))) | Hallownest's_Crown) + QUAKE</areaLogic>
     <roomLogic>((Mines_25[left1] + (FULLCLAW | (WINGS + ANYCLAW))) | (Mines_25[top1])) + QUAKE</roomLogic>
     <type>Soul</type>
@@ -548,7 +548,7 @@
     <objectName>Soul Totem mini_two_horned</objectName>
     <replace>true</replace>
     <elevation>0.1</elevation>
-    <itemLogic>Upper_Crystal_Peak + PLANK_BREAK + ((LEFTCLAW + (DASH | WINGS | AIRSTALL | (SUPERDASH + MILDSKIPS + DOWNSLASH))) | (WINGS + SHADESKIPS + DOWNSLASH) | (RIGHTCLAW + SUPERDASH + DASH + WINGS))</itemLogic>
+    <itemLogic>Upper_Crystal_Peak + PLANKBREAK + ((LEFTCLAW + (DASH | WINGS | AIRSTALL | (SUPERDASH + MILDSKIPS + DOWNSLASH))) | (WINGS + SHADESKIPS + DOWNSLASH) | (RIGHTCLAW + SUPERDASH + DASH + WINGS))</itemLogic>
     <areaLogic>Upper_Crystal_Peak + ((LEFTCLAW + (DASH | WINGS | AIRSTALL | (SUPERDASH + MILDSKIPS))) | (WINGS + SHADESKIPS) | (RIGHTCLAW + SUPERDASH + DASH + WINGS))</areaLogic>
     <roomLogic>Mines_31[left1] + ((LEFTCLAW + (DASH | WINGS | AIRSTALL | (SUPERDASH + MILDSKIPS))) | (RIGHTCLAW + SUPERDASH + DASH + WINGS))</roomLogic>
     <type>Soul</type>
@@ -580,7 +580,7 @@
     <objectName>Soul Totem mini_horned</objectName>
     <replace>true</replace>
     <elevation>-0.2</elevation>
-    <itemLogic>Crystallized_Mound + QUAKE + CAN_CAST + (ANYCLAW | WINGS)</itemLogic>
+    <itemLogic>Crystallized_Mound + QUAKE + CANCAST + (ANYCLAW | WINGS)</itemLogic>
     <areaLogic>Crystallized_Mound + QUAKE + (ANYCLAW | WINGS)</areaLogic>
     <roomLogic>Mines_35[left1] + QUAKE + (ANYCLAW | WINGS)</roomLogic>
     <type>Soul</type>
@@ -612,7 +612,7 @@
     <objectName>Soul Totem mini_two_horned</objectName>
     <replace>true</replace>
     <elevation>-0.1</elevation>
-    <itemLogic>Lower_Resting_Grounds + WALL_BREAK</itemLogic>
+    <itemLogic>Lower_Resting_Grounds + WALLBREAK</itemLogic>
     <areaLogic>Lower_Resting_Grounds</areaLogic>
     <roomLogic>RestingGrounds_06[left1] | RestingGrounds_06[right1] | RestingGrounds_06[top1]</roomLogic>
     <type>Soul</type>
@@ -628,7 +628,7 @@
     <objectName>Soul Totem 1</objectName>
     <replace>true</replace>
     <elevation>1.6</elevation>
-    <itemLogic>Soul_Sanctum + DAMAGE + (LEFTCLAW | (WINGS + RIGHTCLAW) | (RIGHTCLAW + SUPERDASH + MILDSKIPS + DOWNSLASH)) + QUAKE + CAN_CAST</itemLogic>
+    <itemLogic>Soul_Sanctum + DAMAGE + (LEFTCLAW | (WINGS + RIGHTCLAW) | (RIGHTCLAW + SUPERDASH + MILDSKIPS + DOWNSLASH)) + QUAKE + CANCAST</itemLogic>
     <areaLogic>Soul_Sanctum + (LEFTCLAW | (WINGS + RIGHTCLAW) | (RIGHTCLAW + SUPERDASH + MILDSKIPS)) + QUAKE</areaLogic>
     <roomLogic>Ruins1_24[left2] | Ruins1_24[right2]</roomLogic>
     <type>Soul</type>
@@ -660,7 +660,7 @@
     <objectName>Soul Totem 3</objectName>
     <replace>true</replace>
     <elevation>0.2</elevation>
-    <itemLogic>Soul_Sanctum + DAMAGE + (LEFTCLAW | (WINGS + RIGHTCLAW) | (RIGHTCLAW + SUPERDASH + MILDSKIPS + DOWNSLASH)) + QUAKE + CAN_CAST</itemLogic>
+    <itemLogic>Soul_Sanctum + DAMAGE + (LEFTCLAW | (WINGS + RIGHTCLAW) | (RIGHTCLAW + SUPERDASH + MILDSKIPS + DOWNSLASH)) + QUAKE + CANCAST</itemLogic>
     <areaLogic>Soul_Sanctum + (LEFTCLAW | (WINGS + RIGHTCLAW) | (RIGHTCLAW + SUPERDASH + MILDSKIPS)) + QUAKE</areaLogic>
     <roomLogic>Ruins1_32[right1] + ANYCLAW + QUAKE</roomLogic>
     <type>Soul</type>

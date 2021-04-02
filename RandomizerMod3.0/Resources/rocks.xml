@@ -344,9 +344,9 @@
     <objectName>Geo Rock 1</objectName>
     <replace>true</replace>
     <elevation>4.3</elevation>
-    <itemLogic>Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + UPWALLBREAK</itemLogic>
-    <areaLogic>Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + UPWALLBREAK</areaLogic>
-    <roomLogic>Crossroads_07 + (RIGHTCLAW | (WINGS + LEFTCLAW)) + UPWALLBREAK</roomLogic>
+    <itemLogic>Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + WALLBREAKUP</itemLogic>
+    <areaLogic>Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + WALLBREAKUP</areaLogic>
+    <roomLogic>Crossroads_07 + (RIGHTCLAW | (WINGS + LEFTCLAW)) + WALLBREAKUP</roomLogic>
     <type>Geo</type>
     <action>SpawnGeo</action>
     <pool>Rock</pool>
@@ -361,9 +361,9 @@
     <objectName>Geo Rock 1 (1)</objectName>
     <replace>true</replace>
     <elevation>-0.8</elevation>
-    <itemLogic>Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + UPWALLBREAK</itemLogic>
-    <areaLogic>Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + UPWALLBREAK</areaLogic>
-    <roomLogic>Crossroads_07 + (RIGHTCLAW | (WINGS + LEFTCLAW)) + UPWALLBREAK</roomLogic>
+    <itemLogic>Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + WALLBREAKUP</itemLogic>
+    <areaLogic>Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + WALLBREAKUP</areaLogic>
+    <roomLogic>Crossroads_07 + (RIGHTCLAW | (WINGS + LEFTCLAW)) + WALLBREAKUP</roomLogic>
     <type>Geo</type>
     <action>SpawnGeo</action>
     <pool>Rock</pool>
@@ -378,9 +378,9 @@
     <objectName>Geo Rock 1 (2)</objectName>
     <replace>true</replace>
     <elevation>-0.7</elevation>
-    <itemLogic>Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + UPWALLBREAK</itemLogic>
-    <areaLogic>Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + UPWALLBREAK</areaLogic>
-    <roomLogic>Crossroads_07 + (RIGHTCLAW | (WINGS + LEFTCLAW)) + UPWALLBREAK</roomLogic>
+    <itemLogic>Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + WALLBREAKUP</itemLogic>
+    <areaLogic>Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + WALLBREAKUP</areaLogic>
+    <roomLogic>Crossroads_07 + (RIGHTCLAW | (WINGS + LEFTCLAW)) + WALLBREAKUP</roomLogic>
     <type>Geo</type>
     <action>SpawnGeo</action>
     <pool>Rock</pool>
@@ -769,9 +769,9 @@
     <objectName>Geo Rock 1</objectName>
     <replace>true</replace>
     <elevation>-0.9</elevation>
-    <itemLogic>Ancestral_Mound + UPWALLBREAK</itemLogic>
-    <areaLogic>Ancestral_Mound + UPWALLBREAK</areaLogic>
-    <roomLogic>Crossroads_ShamanTemple[left1] + UPWALLBREAK</roomLogic>
+    <itemLogic>Ancestral_Mound + WALLBREAKUP</itemLogic>
+    <areaLogic>Ancestral_Mound + WALLBREAKUP</areaLogic>
+    <roomLogic>Crossroads_ShamanTemple[left1] + WALLBREAKUP</roomLogic>
     <type>Geo</type>
     <action>SpawnGeo</action>
     <pool>Rock</pool>
@@ -786,9 +786,9 @@
     <objectName>_Items\Geo Rock 2</objectName>
     <replace>true</replace>
     <elevation>-0.8</elevation>
-    <itemLogic>Ancestral_Mound + UPWALLBREAK</itemLogic>
-    <areaLogic>Ancestral_Mound + UPWALLBREAK</areaLogic>
-    <roomLogic>Crossroads_ShamanTemple[left1] + UPWALLBREAK</roomLogic>
+    <itemLogic>Ancestral_Mound + WALLBREAKUP</itemLogic>
+    <areaLogic>Ancestral_Mound + WALLBREAKUP</areaLogic>
+    <roomLogic>Crossroads_ShamanTemple[left1] + WALLBREAKUP</roomLogic>
     <type>Geo</type>
     <action>SpawnGeo</action>
     <pool>Rock</pool>
@@ -803,9 +803,9 @@
     <objectName>Geo Rock 2</objectName>
     <replace>true</replace>
     <elevation>-0.7</elevation>
-    <itemLogic>Ancestral_Mound + WINGS + UPWALLBREAK</itemLogic>
-    <areaLogic>Ancestral_Mound + WINGS + UPWALLBREAK</areaLogic>
-    <roomLogic>Crossroads_ShamanTemple[left1] + WINGS + UPWALLBREAK</roomLogic>
+    <itemLogic>Ancestral_Mound + WINGS + WALLBREAKUP</itemLogic>
+    <areaLogic>Ancestral_Mound + WINGS + WALLBREAKUP</areaLogic>
+    <roomLogic>Crossroads_ShamanTemple[left1] + WINGS + WALLBREAKUP</roomLogic>
     <type>Geo</type>
     <action>SpawnGeo</action>
     <pool>Rock</pool>
@@ -820,9 +820,9 @@
     <objectName>Geo Rock 2 (1)</objectName>
     <replace>true</replace>
     <elevation>-0.8</elevation>
-    <itemLogic>Ancestral_Mound + WINGS + UPWALLBREAK</itemLogic>
-    <areaLogic>Ancestral_Mound + WINGS + UPWALLBREAK</areaLogic>
-    <roomLogic>Crossroads_ShamanTemple[left1] + WINGS + UPWALLBREAK</roomLogic>
+    <itemLogic>Ancestral_Mound + WINGS + WALLBREAKUP</itemLogic>
+    <areaLogic>Ancestral_Mound + WINGS + WALLBREAKUP</areaLogic>
+    <roomLogic>Crossroads_ShamanTemple[left1] + WINGS + WALLBREAKUP</roomLogic>
     <type>Geo</type>
     <action>SpawnGeo</action>
     <pool>Rock</pool>
@@ -3113,9 +3113,9 @@
     <objectName>Geo Rock Grave 02</objectName>
     <replace>true</replace>
     <elevation>0.2</elevation>
-    <itemLogic>Upper_Resting_Grounds + (LEFTCLAW | WINGS) + QUAKE + UPWALLBREAK</itemLogic>
-    <areaLogic>Upper_Resting_Grounds + (LEFTCLAW | WINGS) + QUAKE + UPWALLBREAK</areaLogic>
-    <roomLogic>RestingGrounds_10[top1] + (LEFTCLAW | WINGS) + UPWALLBREAK</roomLogic>
+    <itemLogic>Upper_Resting_Grounds + (LEFTCLAW | WINGS) + QUAKE + WALLBREAKUP</itemLogic>
+    <areaLogic>Upper_Resting_Grounds + (LEFTCLAW | WINGS) + QUAKE + WALLBREAKUP</areaLogic>
+    <roomLogic>RestingGrounds_10[top1] + (LEFTCLAW | WINGS) + WALLBREAKUP</roomLogic>
     <type>Geo</type>
     <action>SpawnGeo</action>
     <pool>Rock</pool>
@@ -3132,7 +3132,7 @@
     <elevation>0.2</elevation>
     <itemLogic>Upper_Resting_Grounds + QUAKE</itemLogic>
     <areaLogic>Upper_Resting_Grounds + QUAKE</areaLogic>
-    <roomLogic>RestingGrounds_10[top1] + (UPWALLBREAK | QUAKE)</roomLogic>
+    <roomLogic>RestingGrounds_10[top1] + (WALLBREAKUP | QUAKE)</roomLogic>
     <type>Geo</type>
     <action>SpawnGeo</action>
     <pool>Rock</pool>
@@ -3149,7 +3149,7 @@
     <elevation>0.2</elevation>
     <itemLogic>Upper_Resting_Grounds + QUAKE</itemLogic>
     <areaLogic>Upper_Resting_Grounds + QUAKE</areaLogic>
-    <roomLogic>RestingGrounds_10[top1] + (UPWALLBREAK | QUAKE)</roomLogic>
+    <roomLogic>RestingGrounds_10[top1] + (WALLBREAKUP | QUAKE)</roomLogic>
     <type>Geo</type>
     <action>SpawnGeo</action>
     <pool>Rock</pool>
@@ -3522,7 +3522,7 @@
     <newShiny>true</newShiny>
     <x>49</x>
     <y>7.8</y>
-    <itemLogic>Greenpath + REGULAR_DAMAGE + (DASH | LEFTCLAW | WINGS | SUPERDASH | AIRSTALL | (SHADESKIPS + DOWNSLASH))</itemLogic>
+    <itemLogic>Greenpath + REGULARDAMAGE + (DASH | LEFTCLAW | WINGS | SUPERDASH | AIRSTALL | (SHADESKIPS + DOWNSLASH))</itemLogic>
     <areaLogic>Greenpath + (DASH | LEFTCLAW | WINGS | SUPERDASH | AIRSTALL | SHADESKIPS)</areaLogic>
     <roomLogic>Fungus1_29[left1] | Fungus1_29[right1]</roomLogic>
     <type>Geo</type>
@@ -3556,7 +3556,7 @@
     <newShiny>true</newShiny>
     <x>30</x>
     <y>75</y>
-    <itemLogic>Soul_Sanctum + INTERACT + REGULAR_DAMAGE + (LEFTCLAW | WINGS | (RIGHTCLAW + SUPERDASH + MILDSKIPS + DOWNSLASH))</itemLogic>
+    <itemLogic>Soul_Sanctum + INTERACT + REGULARDAMAGE + (LEFTCLAW | WINGS | (RIGHTCLAW + SUPERDASH + MILDSKIPS + DOWNSLASH))</itemLogic>
     <areaLogic>Soul_Sanctum + (LEFTCLAW | WINGS | (RIGHTCLAW + SUPERDASH + MILDSKIPS))</areaLogic>
     <roomLogic>Ruins1_23[top1] | (Ruins1_23 + (LEFTCLAW | WINGS | (RIGHTCLAW + SUPERDASH + MILDSKIPS)))</roomLogic>
     <type>Geo</type>
@@ -3641,7 +3641,7 @@
     <newShiny>true</newShiny>
     <x>45</x>
     <y>13.5</y>
-    <itemLogic>Upper_Left_Greenpath + REGULAR_DAMAGE + (SIDESLASH | UPSLASH | MILDSKIPS | FIREBALL | QUAKE | SCREAM | WINGS | Cyclone_Slash | Great_Slash | (DASH + Dash_Slash))</itemLogic>
+    <itemLogic>Upper_Left_Greenpath + REGULARDAMAGE + (SIDESLASH | UPSLASH | MILDSKIPS | FIREBALL | QUAKE | SCREAM | WINGS | Cyclone_Slash | Great_Slash | (DASH + Dash_Slash))</itemLogic>
     <areaLogic>Upper_Left_Greenpath + (SIDESLASH | UPSLASH | MILDSKIPS | FIREBALL | QUAKE | SCREAM | WINGS | Cyclone_Slash | Great_Slash | (DASH + Dash_Slash))</areaLogic>
     <roomLogic>(Fungus1_20_v02[bot1] | Fungus1_20_v02[bot2] | Fungus1_20_v02[right1]) + (SIDESLASH | UPSLASH | MILDSKIPS | FIREBALL | QUAKE | SCREAM | WINGS | Cyclone_Slash | Great_Slash | (DASH + Dash_Slash))</roomLogic>
     <type>Geo</type>

@@ -1,4 +1,4 @@
-﻿<randomizer>
+<randomizer>
   <!--TRANSITIONS-->
   <!--Black Egg Temple-->
   <!--Room_Temple - note internal BET transitions are not randomized-->
@@ -2698,7 +2698,7 @@
     <sceneName>Deepnest_East_03</sceneName>
     <doorName>top1</doorName>
     <areaName>Kingdoms_Edge</areaName>
-    <logic>Deepnest_East_03 + LEFTCLAW + UPWALLBREAK</logic>
+    <logic>Deepnest_East_03 + LEFTCLAW + WALLBREAKUP</logic>
   </transition>
   <transition name="Deepnest_East_03[top2]">
     <sceneName>Deepnest_East_03</sceneName>
@@ -2865,7 +2865,7 @@
     <sceneName>Deepnest_East_11</sceneName>
     <doorName>top1</doorName>
     <areaName>Kingdoms_Edge</areaName>
-    <logic>Deepnest_East_11 + ((Deepnest_East_11[right1] + LEFTCLAW) | WINGS | (LEFTCLAW + SPICYSKIPS)) + UPWALLBREAK</logic>
+    <logic>Deepnest_East_11 + ((Deepnest_East_11[right1] + LEFTCLAW) | WINGS | (LEFTCLAW + SPICYSKIPS)) + WALLBREAKUP</logic>
   </transition>
   <transition name="Deepnest_East_11[bot1]">
     <sceneName>Deepnest_East_11</sceneName>
@@ -4681,7 +4681,7 @@
     <sceneName>RestingGrounds_10</sceneName>
     <doorName>top2</doorName>
     <areaName>Resting_Grounds</areaName>
-    <logic>RestingGrounds_10 + (LEFTCLAW | (WINGS + RIGHTCLAW)) + (UPWALLBREAK | QUAKE)</logic>
+    <logic>RestingGrounds_10 + (LEFTCLAW | (WINGS + RIGHTCLAW)) + (WALLBREAKUP | QUAKE)</logic>
   </transition>
   <!--RestingGrounds_12-->
   <transition name="RestingGrounds_12[bot1]">

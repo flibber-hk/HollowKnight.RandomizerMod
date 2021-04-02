@@ -244,7 +244,7 @@
     <x>61.6</x>
     <y>3.4</y>
     <zone>CITY</zone>
-    <waypoint>Left_Elevator</waypoint>
+    <waypoint>Upper_Storerooms</waypoint>
     <areaTransition>Ruins1_01[left1]</areaTransition>
     <roomTransition>Ruins1_17[right1]</roomTransition>
     <itemSafe>true</itemSafe>

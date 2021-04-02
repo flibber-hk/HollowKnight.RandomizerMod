@@ -95,6 +95,13 @@ namespace RandomizerMod.Randomization
             if (RandomizerMod.Instance.Settings.RandomizeStartLocation)
             {
                 List<string> startLocations = LogicManager.StartLocations.Where(start => TestStartLocation(start)).Except(new string[] { "King's Pass" }).ToList();
+
+                // Remove some start locations from cursed pogo mode
+                if (RandomizerMod.Instance.Settings.CursedPogo)
+                {
+                    startLocations = startLocations.Except(new string[] { "West Crossroads", "Fungal Wastes", "Greenpath", "East Fog Canyon" }).ToList();
+                }
+
                 StartName = startLocations[rand.Next(startLocations.Count)];
             }
             else if (!LogicManager.StartLocations.Contains(RandomizerMod.Instance.Settings.StartName))
