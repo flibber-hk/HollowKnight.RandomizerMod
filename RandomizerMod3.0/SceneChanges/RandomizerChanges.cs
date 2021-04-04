@@ -353,10 +353,14 @@ namespace RandomizerMod.SceneChanges
                     }
                     break;
 
-                // Edits Dream Nail location to change scene to seer
+                // Edits Dream Nail location to change scene to seer and
+                // re-enable minion charms
                 case SceneNames.Dream_Nailcollection:
-                    FSMUtility.LocateFSM(GameObject.Find("Randomizer Shiny"), "Shiny Control").GetState("Finish")
-                        .AddAction(new RandomizerChangeScene("RestingGrounds_07", "right1"));
+                    var finish = FSMUtility.LocateFSM(GameObject.Find("Randomizer Shiny"), "Shiny Control").GetState("Finish");
+                    finish.AddAction(new RandomizerChangeScene("RestingGrounds_07", "right1"));
+                    finish.AddAction(new RandomizerExecuteLambda(() => {
+                        FSMUtility.LocateFSM(HeroController.instance.gameObject, "ProxyFSM").Fsm.GetFsmBool("No Charms").Value = false;
+                    }));
                     break;
 
                 // Edit Hornet room to open gates after boss fight, and removes dreamer cutscene
