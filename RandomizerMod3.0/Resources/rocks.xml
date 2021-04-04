@@ -3590,7 +3590,7 @@
     <newShiny>true</newShiny>
     <x>34</x>
     <y>11.5</y>
-    <itemLogic>Upper_Crystal_Peak + (SIDESLASH | UPSLASH | Great_Slash | Cyclone_Slash | (DASH + Dash_Slash))</itemLogic>
+    <itemLogic>Upper_Crystal_Peak + (SIDESLASH | UPSLASH | NAILART | Weaversong | Grimmchild | (Dream_Nail + (SPELL | (Spore_Shroom + FOCUS))) | (SPICYSKIPS + (Dream_Nail + (Glowing_Womb | (FOCUS + SUPERDASH))) | SHARPSHADOW))</itemLogic>
     <areaLogic>Upper_Crystal_Peak + (SIDESLASH | UPSLASH | Great_Slash | Cyclone_Slash | (DASH + Dash_Slash))</areaLogic>
     <roomLogic>Mines_18 + (SIDESLASH | UPSLASH | Great_Slash | Cyclone_Slash | (DASH + Dash_Slash))</roomLogic>
     <type>Geo</type>

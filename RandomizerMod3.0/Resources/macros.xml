@@ -34,7 +34,9 @@
   <macro name="BELLRINGLEFT">BELLRING | (SUPERDASH + LEFTCLAW)</macro>
   <macro name="BELLRINGRIGHT">BELLRING | (SUPERDASH + RIGHTCLAW)</macro>
   <macro name="BELLRINGBOTH">BELLRINGLEFT | BELLRINGRIGHT</macro>
-  <macro name="PLANKBREAK">ANYSLASH | NAILART | SPELL | SHARPSHADOW | SUPERDASH</macro>
+  <macro name="PLANKBREAKLEFT">UPSLASH | DOWNSLASH | LEFTSLASH | NAILART | SPELL | SHARPSHADOW | SUPERDASH</macro>
+  <macro name="PLANKBREAKRIGHT">UPSLASH | DOWNSLASH | RIGHTSLASH | NAILART | SPELL | SHARPSHADOW | SUPERDASH</macro>
+  <macro name="PLANKBREAK">PLANKBREAKLEFT + PLANKBREAKRIGHT</macro>
   
   <macro name="REGULARDAMAGE">ANYSLASH | NAILART | Weaversong | Grimmchild</macro>
   <macro name="CURSEDDAMAGE">ANYSLASH | NAILART | (Dream_Nail + SPELL) | Weaversong | Grimmchild | SHARPSHADOW | (Dream_Nail + (Glowing_Womb | (Spore_Shroom + FOCUS) | (SUPERDASH + FOCUS)))</macro>
