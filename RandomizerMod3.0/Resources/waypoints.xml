@@ -56,7 +56,7 @@
   </item>
   <!--Area between Greenpath and Queens Station-->
   <item name="Left_Fog_Canyon">
-    <itemLogic>(Greenpath + (DASH | SUPERDASH | WINGS | ACID | SHADESKIPS | AIRSTALL | (MILDSKIPS + DOWNSLASH))) | Queen's_Station | (Top_Right_Queen's_Gardens + ((INTERACT | SHADOWDASH) + (RIGHTCLAW | WINGS) | ACID | SKIPACID)) | (Right_Fog_Canyon + INTERACT)</itemLogic>
+    <itemLogic>(Greenpath + (DASH | SUPERDASH | WINGS | ACID | SHADESKIPS | AIRSTALL | DOWNSLASH)) | Queen's_Station | (Top_Right_Queen's_Gardens + ((INTERACT | SHADOWDASH) + (RIGHTCLAW | WINGS) | ACID | SKIPACID)) | (Right_Fog_Canyon + INTERACT)</itemLogic>
     <areaLogic>Fungus3_01[top1] | Fungus3_02[right2] | ((RIGHTCLAW | WINGS) + Fungus3_44[bot1]) | Fungus3_44[door1] | ((ACID | SKIPACID) + Fungus3_03[left1]) | Right_Fog_Canyon</areaLogic>
   </item>
   <!--Overgrown Mound entrance-->
@@ -141,7 +141,7 @@
   </item>
   <!--Left exit of Ruins2_05 (Above King's Station)-->
   <item name="Upper_King's_Station">
-    <itemLogic>(Right_City + (FULLCLAW | WINGS | (MILDSKIPS + DOWNSLASH + DASH))) | (Lower_King's_Station + (LEFTCLAW | (RIGHTCLAW + MILDSKIPS + DOWNSLASH) | WINGS)) | Right_Elevator | (King's_Station_Stag + Can_Stag + ((RIGHTCLAW + MILDSKIPS + DOWNSLASH) | LEFTCLAW | WINGS | (SPICYSKIPS + DOWNSLASH)))</itemLogic>
+    <itemLogic>(Right_City + (FULLCLAW | WINGS | (MILDSKIPS + DOWNSLASH + DASH))) | (Lower_King's_Station + ((RIGHTCLAW + (LEFTCLAW | (MILDSKIPS + DOWNSLASH)) | WINGS))) | Right_Elevator | (King's_Station_Stag + Can_Stag + ((RIGHTCLAW + MILDSKIPS + DOWNSLASH) | LEFTCLAW | WINGS | (SPICYSKIPS + DOWNSLASH)))</itemLogic>
     <areaLogic>(Ruins2_06[left1] + (LEFTCLAW | WINGS | MILDSKIPS)) | ((FULLCLAW | (RIGHTCLAW + MILDSKIPS) | WINGS) + Lower_King's_Station) | Right_Elevator | (King's_Station_Stag + Can_Stag + ((RIGHTCLAW + MILDSKIPS) | LEFTCLAW | WINGS | SPICYSKIPS))</areaLogic>
   </item>
   <!--Bottom of elevator-->
@@ -336,7 +336,7 @@
   </item>
   <!--Where you encounter Pale Lurker (not where you fight her)-->
   <item name="Pale_Lurker_Area">
-    <itemLogic>Colosseum + ANYCLAW</itemLogic>
+    <itemLogic>Colosseum + ANYCLAW + WALLBREAKRIGHT</itemLogic>
     <areaLogic>GG_Lurker[left1]</areaLogic>
   </item>
   <!--Crystal Peak dark room bench-->

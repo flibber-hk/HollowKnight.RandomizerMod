@@ -696,7 +696,7 @@
     <objectName>Shiny Item (1)</objectName>
     <fsmName>Shiny Control</fsmName>
     <replace>false</replace>
-    <itemLogic>King's_Pass + INTERACT + (SHADESKIPS | DASH | SUPERDASH | WINGS | DOWNSLASH | FIREBALLSKIPS)</itemLogic>
+    <itemLogic>King's_Pass + PLANKBREAKRIGHT + (SHADESKIPS | DASH | SUPERDASH | WINGS | DOWNSLASH | FIREBALLSKIPS)</itemLogic>
     <areaLogic>King's_Pass</areaLogic>
     <roomLogic>Tutorial_01</roomLogic>
     <type>Charm</type>
@@ -3305,7 +3305,7 @@
     <fsmName>Shiny Control</fsmName>
     <replace>false</replace>
     <elevation>-1.2</elevation>
-    <itemLogic>Left_City</itemLogic>
+    <itemLogic>Left_City + INTERACT</itemLogic>
     <areaLogic>Left_City</areaLogic>
     <roomLogic>Ruins1_03</roomLogic>
     <type>Trinket</type>
@@ -4313,7 +4313,7 @@
     <objectName>Grub Bottle</objectName>
     <replace>true</replace>
     <elevation>0.1</elevation>
-    <itemLogic>WALLBREAKRIGHT + (Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (ANYCLAW + (DASH | SUPERDASH)))))</itemLogic>
+    <itemLogic>WALLBREAKRIGHT + ((DOWNSLASH + MILDSKIPS) | WINGS | ANYCLAW) + (Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (ANYCLAW + (DASH | SUPERDASH)))))</itemLogic>
     <areaLogic>Deepnest_01b[top1] | Deepnest_01b[top2] | (Upper_Deepnest + (WINGS | (ANYCLAW + (DASH | SUPERDASH))))</areaLogic>
     <roomLogic>Deepnest_36[left1]</roomLogic>
     <type>Trinket</type>
@@ -5384,7 +5384,7 @@
     <objectName>Health Cocoon</objectName>
     <replace>true</replace>
     <elevation>3.7</elevation>
-    <itemLogic>King's_Pass</itemLogic>
+    <itemLogic>King's_Pass + PLANKBREAKRIGHT</itemLogic>
     <areaLogic>King's_Pass</areaLogic>
     <roomLogic>Tutorial_01</roomLogic>
     <type>Lifeblood</type>
