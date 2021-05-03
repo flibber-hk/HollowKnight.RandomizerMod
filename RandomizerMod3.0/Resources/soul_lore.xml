@@ -724,9 +724,9 @@
     <objectName>Soul Totem mini_two_horned</objectName>
     <replace>true</replace>
     <elevation>0.001</elevation>
-    <itemLogic>Lower_Left_Waterways</itemLogic>
-    <areaLogic>Lower_Left_Waterways</areaLogic>
-    <roomLogic>Waterways_08[top1] | Waterways_08[left1] | Waterways_08[left2]</roomLogic>
+    <itemLogic>Lower_Left_Waterways + (MILDSKIPS | RIGHTCLAW | WINGS | SUPERDASH)</itemLogic>
+    <areaLogic>Lower_Left_Waterways + (MILDSKIPS | RIGHTCLAW | WINGS | SUPERDASH)</areaLogic>
+    <roomLogic>(Waterways_08[top1] + (MILDSKIPS | RIGHTCLAW | WINGS | SUPERDASH)) | Waterways_08[left1] | Waterways_08[left2]</roomLogic>
     <type>Soul</type>
     <action>AddSoul</action>
     <pool>Soul</pool>

@@ -620,7 +620,7 @@
     <sceneName>GG_Pipeway</sceneName>
     <doorName>left1</doorName>
     <areaName>Royal_Waterways</areaName>
-    <logic>Lower_Left_Waterways + (LEFTCLAW | WINGS)</logic>
+    <logic>Lower_Left_Waterways + ((LEFTCLAW + (RIGHTCLAW | SUPERDASH | MILDSKIPS)) | (WINGS + (ANYCLAW | MILDSKIPS)))</logic>
   </transition>
   <transition name="Waterways_09[left1]">
     <sceneName>Waterways_09</sceneName>

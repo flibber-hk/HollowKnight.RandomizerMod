@@ -2586,8 +2586,8 @@
     <objectName>Geo Rock City 1</objectName>
     <replace>true</replace>
     <elevation>0.1</elevation>
-    <itemLogic>Lower_Left_Waterways + (LEFTCLAW | WINGS)</itemLogic>
-    <areaLogic>(Lower_Left_Waterways + (LEFTCLAW | WINGS)) | (GG_Pipeway[left1] + RIGHTCLAW)</areaLogic>
+    <itemLogic>Lower_Left_Waterways + ((LEFTCLAW + (RIGHTCLAW | SUPERDASH | MILDSKIPS)) | WINGS)</itemLogic>
+    <areaLogic>(Lower_Left_Waterways + ((LEFTCLAW + (RIGHTCLAW | SUPERDASH | MILDSKIPS)) | WINGS)) | (GG_Pipeway[left1] + RIGHTCLAW)</areaLogic>
     <roomLogic>(GG_Pipeway[left1] | GG_Pipeway[right1]) + (ANYCLAW | WINGS)</roomLogic>
     <type>Geo</type>
     <action>SpawnGeo</action>
@@ -3504,9 +3504,9 @@
     <objectName>Geo Rock City 1</objectName>
     <replace>true</replace>
     <elevation>0.001</elevation>
-    <itemLogic>Lower_Left_Waterways + (ANYCLAW | WINGS)</itemLogic>
-    <areaLogic>Lower_Left_Waterways + (ANYCLAW | WINGS)</areaLogic>
-    <roomLogic>Waterways_08[left2] | ((Waterways_08[left1] | Waterways_08[top1]) + (ANYCLAW | WINGS))</roomLogic>
+    <itemLogic>Lower_Left_Waterways + (RIGHTCLAW | (LEFTCLAW + (SUPERDASH | MILDSKIPS)) | WINGS)</itemLogic>
+    <areaLogic>Lower_Left_Waterways + (RIGHTCLAW | (LEFTCLAW + (SUPERDASH | MILDSKIPS)) | WINGS)</areaLogic>
+    <roomLogic>Waterways_08[left2] | ((Waterways_08[left1] | (Waterways_08[top1] + (RIGHTCLAW | SUPERDASH | WINGS | MILDSKIPS))) + (ANYCLAW | WINGS))</roomLogic>
     <type>Geo</type>
     <action>SpawnGeo</action>
     <pool>Rock</pool>
